@@ -23,9 +23,9 @@ to the latest versions, by running:
 
 ```
 conda update conda
-conda install bokeh=0.9
-conda install blaze=0.8
-conda install ipython=3.2
+conda install bokeh=0.9.3
+conda install blaze=0.8.3
+conda install ipython=3.2.3
 conda install netcdf4
 ```
 

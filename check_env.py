@@ -3,21 +3,21 @@
 try:
     import blaze
     print blaze.__version__
-    assert(blaze.__version__ == '0.8.0')
+    assert(blaze.__version__ == '0.8.3')
 except ImportError:
     print("You need Blaze installed, please run: conda install blaze=0.8")
 
 try:
     import bokeh
     print bokeh.__version__
-    assert(bokeh.__version__ == '0.9.0')
+    assert(bokeh.__version__ == '0.9.3')
 except ImportError:
     print("You need Bokeh installed, please run: conda install bokeh=0.9")
 
 try:
     import IPython
     print IPython.__version__
-    assert(IPython.__version__ == '3.2.0')
+    assert(IPython.__version__ == '3.2.3')
 except ImportError:
     print("You need IPython installed, please run: conda install ipython=3.2")
 
